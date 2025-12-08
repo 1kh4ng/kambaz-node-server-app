@@ -1,0 +1,303 @@
+[
+  {
+    "_id": "4550",
+    "name": "CS4550 Web Development",
+    "number": "CS4550",
+    "credits": 4,
+    "description": "Full Stack Web Apps",
+    "modules": [
+      {
+        "_id": "4550-M1",
+        "name": "Module 1",
+        "description": "Getting Started",
+        "lessons": [
+          {
+            "_id": "4550-M1-L1",
+            "name": "Lesson 1",
+            "description": "Intro"
+          },
+          {
+            "_id": "4550-M1-L2",
+            "name": "Lesson 2",
+            "description": "Setup"
+          }
+        ]
+      },
+      {
+        "_id": "4550-M2",
+        "name": "Module 2",
+        "description": "Core Concepts",
+        "lessons": [
+          {
+            "_id": "4550-M2-L1",
+            "name": "Lesson 1",
+            "description": "Basics"
+          },
+          {
+            "_id": "4550-M2-L2",
+            "name": "Lesson 2",
+            "description": "Practice"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "3200",
+    "name": "CS3200 Introduction to Databases",
+    "number": "CS3200",
+    "credits": 4,
+    "description": "Models and SQL",
+    "modules": [
+      {
+        "_id": "3200-M1",
+        "name": "Module 1",
+        "description": "Getting Started",
+        "lessons": [
+          {
+            "_id": "3200-M1-L1",
+            "name": "Lesson 1",
+            "description": "Intro"
+          },
+          {
+            "_id": "3200-M1-L2",
+            "name": "Lesson 2",
+            "description": "Setup"
+          }
+        ]
+      },
+      {
+        "_id": "3200-M2",
+        "name": "Module 2",
+        "description": "Core Concepts",
+        "lessons": [
+          {
+            "_id": "3200-M2-L1",
+            "name": "Lesson 1",
+            "description": "Basics"
+          },
+          {
+            "_id": "3200-M2-L2",
+            "name": "Lesson 2",
+            "description": "Practice"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "2800",
+    "name": "CS2800 Logic and Computation",
+    "number": "CS2800",
+    "credits": 4,
+    "description": "Typed Functional Programming",
+    "modules": [
+      {
+        "_id": "2800-M1",
+        "name": "Module 1",
+        "description": "Getting Started",
+        "lessons": [
+          {
+            "_id": "2800-M1-L1",
+            "name": "Lesson 1",
+            "description": "Intro"
+          },
+          {
+            "_id": "2800-M1-L2",
+            "name": "Lesson 2",
+            "description": "Setup"
+          }
+        ]
+      },
+      {
+        "_id": "2800-M2",
+        "name": "Module 2",
+        "description": "Core Concepts",
+        "lessons": [
+          {
+            "_id": "2800-M2-L1",
+            "name": "Lesson 1",
+            "description": "Basics"
+          },
+          {
+            "_id": "2800-M2-L2",
+            "name": "Lesson 2",
+            "description": "Practice"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "1800",
+    "name": "CS1800 Discrete Structures",
+    "number": "CS1800",
+    "credits": 4,
+    "description": "Mathematical Structures",
+    "modules": [
+      {
+        "_id": "1800-M1",
+        "name": "Module 1",
+        "description": "Getting Started",
+        "lessons": [
+          {
+            "_id": "1800-M1-L1",
+            "name": "Lesson 1",
+            "description": "Intro"
+          },
+          {
+            "_id": "1800-M1-L2",
+            "name": "Lesson 2",
+            "description": "Setup"
+          }
+        ]
+      },
+      {
+        "_id": "1800-M2",
+        "name": "Module 2",
+        "description": "Core Concepts",
+        "lessons": [
+          {
+            "_id": "1800-M2-L1",
+            "name": "Lesson 1",
+            "description": "Basics"
+          },
+          {
+            "_id": "1800-M2-L2",
+            "name": "Lesson 2",
+            "description": "Practice"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "3650",
+    "name": "CS3650 Computer Systems",
+    "number": "CS3650",
+    "credits": 4,
+    "description": "Processes & Concurrency",
+    "modules": [
+      {
+        "_id": "3650-M1",
+        "name": "Module 1",
+        "description": "Getting Started",
+        "lessons": [
+          {
+            "_id": "3650-M1-L1",
+            "name": "Lesson 1",
+            "description": "Intro"
+          },
+          {
+            "_id": "3650-M1-L2",
+            "name": "Lesson 2",
+            "description": "Setup"
+          }
+        ]
+      },
+      {
+        "_id": "3650-M2",
+        "name": "Module 2",
+        "description": "Core Concepts",
+        "lessons": [
+          {
+            "_id": "3650-M2-L1",
+            "name": "Lesson 1",
+            "description": "Basics"
+          },
+          {
+            "_id": "3650-M2-L2",
+            "name": "Lesson 2",
+            "description": "Practice"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "3800",
+    "name": "CS3800 Theory of Computation",
+    "number": "CS3800",
+    "credits": 4,
+    "description": "Capabilities and Limitations of Computers",
+    "modules": [
+      {
+        "_id": "3800-M1",
+        "name": "Module 1",
+        "description": "Getting Started",
+        "lessons": [
+          {
+            "_id": "3800-M1-L1",
+            "name": "Lesson 1",
+            "description": "Intro"
+          },
+          {
+            "_id": "3800-M1-L2",
+            "name": "Lesson 2",
+            "description": "Setup"
+          }
+        ]
+      },
+      {
+        "_id": "3800-M2",
+        "name": "Module 2",
+        "description": "Core Concepts",
+        "lessons": [
+          {
+            "_id": "3800-M2-L1",
+            "name": "Lesson 1",
+            "description": "Basics"
+          },
+          {
+            "_id": "3800-M2-L2",
+            "name": "Lesson 2",
+            "description": "Practice"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "4700",
+    "name": "CS4700 Network Fundamentals",
+    "number": "CS4700",
+    "credits": 4,
+    "description": "Transport & Routing",
+    "modules": [
+      {
+        "_id": "4700-M1",
+        "name": "Module 1",
+        "description": "Getting Started",
+        "lessons": [
+          {
+            "_id": "4700-M1-L1",
+            "name": "Lesson 1",
+            "description": "Intro"
+          },
+          {
+            "_id": "4700-M1-L2",
+            "name": "Lesson 2",
+            "description": "Setup"
+          }
+        ]
+      },
+      {
+        "_id": "4700-M2",
+        "name": "Module 2",
+        "description": "Core Concepts",
+        "lessons": [
+          {
+            "_id": "4700-M2-L1",
+            "name": "Lesson 1",
+            "description": "Basics"
+          },
+          {
+            "_id": "4700-M2-L2",
+            "name": "Lesson 2",
+            "description": "Practice"
+          }
+        ]
+      }
+    ]
+  }
+]
