@@ -21,10 +21,25 @@ mongoose.connection.on("error", (e) => console.log("mongoose error", e.message))
 
 const app = express();
 
+app.set("trust proxy", 1);
+
+const allowedOrigins = [
+  process.env.CLIENT_URL,
+  "http://localhost:3000",
+  "https://kambaz-next-js-3tf9.vercel.app",
+].filter(Boolean);
+
 app.use(
   cors({
     credentials: true,
-    origin: process.env.CLIENT_URL || "http://localhost:3000",
+    origin: (origin, callback) => {
+      if (!origin) return callback(null, true);
+      if (allowedOrigins.includes(origin)) return callback(null, true);
+      if (origin.includes("kambaz-next-js-3tf9") && origin.endsWith(".vercel.app")) {
+        return callback(null, true);
+      }
+      return callback(null, false);
+    },
   })
 );
 
