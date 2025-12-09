@@ -1,4 +1,5 @@
 import model from "./model.js";
+import EnrollmentModel from "../Enrollments/model.js";
 import { v4 as uuidv4 } from "uuid";
 
 export default function CoursesDao(db) {
@@ -7,14 +8,8 @@ export default function CoursesDao(db) {
   }
 
   async function findCoursesForEnrolledUser(userId) {
-    const { enrollments } = db;
-    const courses = await model.find({}, { name: 1, description: 1 });
-    const enrolledCourses = courses.filter((course) =>
-      enrollments.some(
-        (enrollment) => enrollment.user === userId && enrollment.course === course._id
-      )
-    );
-    return enrolledCourses;
+    const enrollments = await EnrollmentModel.find({ user: userId }).populate("course");
+    return enrollments.map((enrollment) => enrollment.course);
   }
 
   function createCourse(course) {
@@ -23,8 +18,6 @@ export default function CoursesDao(db) {
   }
 
   function deleteCourse(courseId) {
-    const { enrollments } = db;
-    db.enrollments = enrollments.filter((enrollment) => enrollment.course !== courseId);
     return model.deleteOne({ _id: courseId });
   }
 
